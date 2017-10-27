@@ -6,7 +6,7 @@ Angular lib wrapper for JQuery ui Autocomplete
 # Install
 
 ```
-npm install --save angular-a-autocomplete
+npm install --save a-autocomplete
 ```
 
 
