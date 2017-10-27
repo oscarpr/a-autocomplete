@@ -1,6 +1,6 @@
 {
   "name": "a-autocomplete",
-  "version": "0.0.1-beta-1",
+  "version": "0.0.1-beta-1.1",
   "description": "Wrapper lib for jquery ui autocomplete",
   "main": "./bundles/a-autocomplete.umd.js",
   "module": "./a-autocomplete.es5.js",
@@ -75,5 +75,13 @@
     "typescript": "~2.3.0",
     "zone.js": "^0.8.4"
   },
-  "keywords":["angular","angular2","angular4","autocomplete","autocomplete for angular","ng2-autocomplete"]
+  "keywords":[
+    "angular",
+    "angular2",
+    "angular4",
+    "autocomplete",
+    "autocomplete for angular",
+    "ng2-autocomplete",
+    "autocomplete-angular"
+  ]
 }
