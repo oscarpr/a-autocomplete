@@ -1,9 +1,8 @@
 {
   "server": {
-    "baseDir": "src/demo",
+    "baseDir": "src",
     "routes": {
-      "/node_modules": "node_modules",
-      "/a-autocomplete": "src/lib"
+      "/node_modules": "node_modules"
     }
   }
 }
