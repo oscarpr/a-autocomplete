@@ -1,6 +1,7 @@
 import { Component, OnInit, OnChanges, OnDestroy, Input, ViewChild, ElementRef, SimpleChanges } from '@angular/core';
 
-declare var $: any;
+import $ from 'jquery';
+import 'jquery-ui-dist/jquery-ui';
 
 @Component({
     selector: 'a-autocomplete',
