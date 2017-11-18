@@ -1,1 +1,1 @@
-export * from './src/app/lib/a-autocomplete.module';
+export { AAutocompleteModule } from './src/lib/src/module';

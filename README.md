@@ -13,7 +13,6 @@ npm install --save a-autocomplete
 # Usage
   1. Import the module in your module.
 ```
-
   import {AAutocompleteModule} from 'a-autocomplete';
 
 
@@ -22,11 +21,32 @@ npm install --save a-autocomplete
     imports:[AAutocompleteModule]
     ...
   })
-
 ```
 
-2. Use it in the component
+
+  2. Install jquery y jquery-ui in your project.
+```
+    npm install --save jquery jquery-ui-dist
+``` 
+
+
+  3. Include the js and the css in your .angular-cli.json
 
 ```
-  <a-autocomplete [options]="{source: ['hola', 'mundo']}"></a-autocomplete>
+  ...
+  "styles": [
+    "../node_modules/jquery-ui-dist/jquery-ui.min.css"
+  ],
+  "scripts": [
+    "../node_modules/jquery/dist/jquery.min.js",
+    "../node_modules/jquery-ui-dist/jquery-ui.min.js"
+  ]
+  ...
 ```
+
+  4. Use it in the component
+```
+  <input [options]="{source: ['hola', 'mundo']}" a-autocomplete></input>
+```
+
+You can set any autocomplete option, that jquery-ui autocomplete in [Autocomplete Docs] (http://api.jqueryui.com/autocomplete/)
