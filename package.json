@@ -1,7 +1,7 @@
 {
   "name": "a-autocomplete",
-  "version": "0.0.1-beta-7",
-  "description": "Library QuickStart package.json from the documentation, supplemented with testing support",
+  "version": "0.0.1-beta-8",
+  "description": "Wrapper for Jquery ui autocomplete",
   "main": "./bundles/a-autocomplete.umd.js",
   "module": "./a-autocomplete.es5.js",
   "es2015": "./a-autocomplete.js",

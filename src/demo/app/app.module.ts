@@ -1,6 +1,6 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AAutocompleteModule } from 'a-autocomplete';
+import { AAutocompleteModule } from '../../../index';
 
 import { AppComponent }  from './app.component';
 

@@ -46,7 +46,7 @@ npm install --save a-autocomplete
 
   4. Use it in the component
 ```
-  <input [options]="{source: ['hola', 'mundo']}" a-autocomplete></input>
+  <input [options]="{source: ['hola', 'mundo']}" a-autocomplete>
 ```
 
 You can set any autocomplete option, that jquery-ui autocomplete in [Autocomplete Docs] (http://api.jqueryui.com/autocomplete/)
